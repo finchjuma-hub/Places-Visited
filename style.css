@@ -25,3 +25,17 @@ h1{
     padding: 32px;
     gap: 24px;
 }
+
+.place-card{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #000;
+    padding: 24px;
+    width: 280px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.place-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px #000;
+}
