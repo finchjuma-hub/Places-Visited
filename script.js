@@ -38,4 +38,12 @@ places.forEach(place => {
     <p><strong>Notes:</strong> ${place.notes}</p>
     <img src="${place.image}" alt="${place.location}" class="place-image">
   `;
-}
+
+  title.addEventListener("click", () => {
+    details.classList.toggle("hidden");
+  });
+
+  card.appendChild(title);
+  card.appendChild(details);
+  container.appendChild(card);
+});
