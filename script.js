@@ -19,7 +19,7 @@ const places =[
     new Place("Tigoni", ["Tea Plantations"], "Cool season", "Beautiful highlands with scenic tea farms."),
     new Place("Naivasha", ["Artcaffe mall"], "Spring", "Popular for lakeside relaxation and hiking."),
     new Place("Nyahururu",["Thompson falls"], "Spring", "Popular for the majesic water fall."),
-    new place("Nanyuki", ["Glacier pool"], "Cool season", "Water that comes from melted snow from Mt.Kenya.")
+    new Place("Nanyuki", ["Glacier pool"], "Cool season", "Water that comes from melted snow from Mt.Kenya.")
 ];
 
 const container = document.querySelector(".places-container");
