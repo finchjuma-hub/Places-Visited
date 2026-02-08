@@ -19,3 +19,23 @@ const places =[
     new Place("Tigoni", ["Tea Plantations"], "Cool season", "Beautiful highlands with scenic tea farms."),
     new Place("Naivasha", ["Artcaffe mall"], "Spring", "Popular for lakeside relaxation and hiking.")
 ];
+
+const container = document.querySelector(".places-container");
+
+places.forEach(place => {
+    const card = document.createElement("div");
+    card.className = "place-card";
+
+    const title = document.createElement("h2");
+    title.className = "place-title";
+    title.textContent = place.location;
+
+    const details =document.createElement("div");
+    details.className = "place-details hidden";
+    details.innerHTML = `
+    <p><strong>Landmarks:</strong> ${place.landmarks.join(", ")}</p>
+    <p><strong>Best Time:</strong> ${place.timeOfYear}</p>
+    <p><strong>Notes:</strong> ${place.notes}</p>
+    <img src="${place.image}" alt="${place.location}" class="place-image">
+  `;
+}
