@@ -17,7 +17,9 @@ const places =[
     new Place("Mombasa", ["Show room", "Beautiful hotels", "White sandy beaches", "Fort Jesus"], "Summer", "Coastal city with rich history"),
     new Place("Kakamega", ["Mumias sugar factory", "Kakamega Forest"], "Rainy season", "Known for lush rainforest and biodiversity."),
     new Place("Tigoni", ["Tea Plantations"], "Cool season", "Beautiful highlands with scenic tea farms."),
-    new Place("Naivasha", ["Artcaffe mall"], "Spring", "Popular for lakeside relaxation and hiking.")
+    new Place("Naivasha", ["Artcaffe mall"], "Spring", "Popular for lakeside relaxation and hiking."),
+    new Place("Nyahururu",["Thompson falls"], "Spring", "Popular for the majesic water fall."),
+    new place("Nanyuki", ["Glacier pool"], "Cool season", "Water that comes from melted snow from Mt.Kenya.")
 ];
 
 const container = document.querySelector(".places-container");
