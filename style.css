@@ -24,6 +24,8 @@ h1{
     justify-content: center;
     padding: 32px;
     gap: 24px;
+    background-image: url(https://images.unsplash.com/photo-1767627651257-f7ed7a0d8146?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMTB8fHxlbnwwfHx8fHw%3D);
+    margin-top: 20px;
 }
 
 .place-card{
@@ -64,14 +66,15 @@ h1{
 }
 
 .place-image{
-    width: 100%;
+    width: 150px;
+    height: 200px;
     border-radius: 6px;
     margin-top: 16px;
     box-shadow: 0 2px 6px #000;
 }
 
 footer{
-    background-color: #2e2569;
+    background-color: #201566;
     color: #fff;
     text-align: center;
     padding: 16px;
