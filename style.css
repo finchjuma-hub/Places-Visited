@@ -52,3 +52,10 @@ h1{
 .place-title:hover{
     color: #2ca5d9;
 }
+
+.place-details{
+    margin-top: 16px;
+    line-height: 17px;
+    font-size: 14px;
+}
+
