@@ -1,1 +1,3 @@
 # Places-Visited
+
+This project is s JavaScript web application designed to track destinations and display their details dynamically. It was built as part of a web development assignment focusing on constructors, prototypes and object driven logic. Each destination is represented as anobject with multiple properties e.g location. When a user clicks on a place name, the application reveals its details and a picture. 
