@@ -23,3 +23,13 @@ Open `index.html` in a browser.
 To add a new place:
    Add an image file to the `images` folder.
    In `script.js`, add a new `Place` object to the `places` array
+
+## Examlpe places
+Kisumu 
+Nairobi
+Mombasa
+Kakamega
+Tigoni 
+Naivasha
+Nyahururu
+Nanyuki
