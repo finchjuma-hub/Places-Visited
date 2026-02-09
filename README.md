@@ -7,3 +7,10 @@ index.html - Main html file with header, container and footer.
 style.css - Styling for layout, cards, hover effects and images.
 script.js - Contains constructors, prototypes, dynamic rendering.
 images - Folder containing place images. 
+
+## Features
+Constructor & Prototype: Each place is created using a constructor function with a prototype method.
+Dynamic Rendering: Cards are generated dynamically with JavaScript, not hardcored in html.
+Interactivity: Clicking a place title toggles visibility of its details and image.
+Responsive Styling: Clean card layout with hover effects and image styling.
+
