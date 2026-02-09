@@ -39,3 +39,12 @@ Do JavaScript objects drive application logic?
 Are consrtuctors and prototypes used succesfully?
 Are pseudo-coded tests present in the README?
 Does the application work as expected?
+
+## Pseudo-coded Tests
+Test: Placeconstructor creates object witb correct properties
+Input: new Place("Nairobi", ["Wilson Airport", "University of Nairobi"], "Autum", "Great balance for stydy and exploration", "images/nairobi.jpg")
+Expected: Object with location= "Nairobi", landmarks= ["Wilson Airport"], timeOfYear="Autum", notes"Great balance for study and exploration", images="images/nairobi.jpg"
+
+Test: displayDetails prototype returns formatted sting
+Input: place.displayDetails()
+Expected: "Nairobi | Landmarks: Wilson Airport | Best time: Autum | Notes: Great balance for study and exploration"
