@@ -14,3 +14,7 @@ Dynamic Rendering: Cards are generated dynamically with JavaScript, not hardcore
 Interactivity: Clicking a place title toggles visibility of its details and image.
 Responsive Styling: Clean card layout with hover effects and image styling.
 
+## Setup 
+Clone or download the repository.
+Ensure the following fikes exist: `index.html`, `style.css`, `script.js`, `images folder`
+Open `index.html` in a browser.
