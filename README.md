@@ -48,3 +48,8 @@ Expected: Object with location= "Nairobi", landmarks= ["Wilson Airport"], timeOf
 Test: displayDetails prototype returns formatted sting
 Input: place.displayDetails()
 Expected: "Nairobi | Landmarks: Wilson Airport | Best time: Autum | Notes: Great balance for study and exploration"
+
+## Future Improvements
+Add search or filter functionality.
+Make cards collapsible with animations.
+Add a form to input new places dynamically.
