@@ -18,3 +18,8 @@ Responsive Styling: Clean card layout with hover effects and image styling.
 Clone or download the repository.
 Ensure the following fikes exist: `index.html`, `style.css`, `script.js`, `images folder`
 Open `index.html` in a browser.
+
+## Adding New Place
+To add a new place:
+   Add an image file to the `images` folder.
+   In `script.js`, add a new `Place` object to the `places` array
