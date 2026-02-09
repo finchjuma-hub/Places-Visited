@@ -24,7 +24,7 @@ To add a new place:
    Add an image file to the `images` folder.
    In `script.js`, add a new `Place` object to the `places` array
 
-## Examlpe places
+## Examlpe Places
 Kisumu 
 Nairobi
 Mombasa
@@ -33,3 +33,9 @@ Tigoni
 Naivasha
 Nyahururu
 Nanyuki
+
+## Peer Review Checklist
+Do JavaScript objects drive application logic?
+Are consrtuctors and prototypes used succesfully?
+Are pseudo-coded tests present in the README?
+Does the application work as expected?
