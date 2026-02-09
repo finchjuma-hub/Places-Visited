@@ -53,3 +53,6 @@ Expected: "Nairobi | Landmarks: Wilson Airport | Best time: Autum | Notes: Great
 Add search or filter functionality.
 Make cards collapsible with animations.
 Add a form to input new places dynamically.
+
+## License
+This project is licensed under the MIT license
