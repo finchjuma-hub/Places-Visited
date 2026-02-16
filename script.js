@@ -16,15 +16,28 @@ Place.prototype.displayDetails = function(){
   };
 
 const places =[
-    new Place("Kisumu", ["Citam Kisumu", "Kisumu Town"], "Spring", "Perfect place to find fish.", "images/WhatsApp Image 2026-02-08 at 20.28.19.jpeg"),
-    new Place("Nairobi", ["Wilson Airport", "University of Nairobi"], "Autum", "Great balance for study and exploration.", "images/WhatsApp Image 2026-02-08 at 20.41.52.jpeg"),
-    new Place("Mombasa", ["Show room", "Beautiful hotels", "White sandy beaches", "Fort Jesus"], "Summer", "Coastal city with rich history.", "images/WhatsApp Image 2026-02-08 at 20.32.27.jpeg"),
-    new Place("Kakamega", ["Mumias sugar factory", "Kakamega Forest"], "Rainy season", "Known for lush rainforest and biodiversity.", "images/WhatsApp Image 2026-02-08 at 20.26.17.jpeg"),
-    new Place("Tigoni", ["Tea Plantations"], "Cool season", "Beautiful highlands with scenic tea farms.", "images/WhatsApp Image 2026-02-08 at 21.52.40.jpeg"),
-    new Place("Naivasha", ["Artcaffe mall"], "Spring", "Popular for lakeside relaxation and hiking.", "images/WhatsApp Image 2026-02-08 at 20.32.55.jpeg"),
-    new Place("Nyahururu",["Thompson falls"], "Spring", "Popular for the majesic water fall.", "images/WhatsApp Image 2026-02-08 at 20.41.48.jpeg"),
-    new Place("Nanyuki", ["Glacier pool"], "Cool season", "Water that comes from melted snow from Mt.Kenya.", "images/WhatsApp Image 2026-02-08 at 20.41.48 (1).jpeg")
-];
+    new Place(
+      "Kisumu",
+      ["Citam Kisumu", "Kisumu Town"],
+      "Spring",
+      "Perfect place to find fish.",
+      "images/kisumu.jpg"
+    ),
+    new Place(
+      "Nairobi",
+      ["Wilson Airport", "University of Nairobi"],
+      "Autum",
+      "Great balance for study and exploration.",
+      "images/nairobi.jpg"
+    ),
+    new Place(
+      "Mombasa",
+      ["Fort Jesus", "White Sandy Beaches"],
+      "Summer",
+      "Coastal city with rich history.",
+      "images/mombasa.jpg"
+    )
+];  
 
 const container = document.querySelector(".places-container");
 
