@@ -7,9 +7,13 @@ function Place(location, landmarks, timeOfYear, notes, image){
 }
 
 Place.prototype.displayDetails = function(){
-    return `${this.location} | Landmarks: ${this.landmarks.join(", ")} 
-  | Best time: ${this.timeOfYear} | Notes: ${this.notes}`;
-};
+    return{
+      landmarks: this.landmarks,
+      timeOfYear: this.timeOfYear,
+      notes: this.notes,
+      image: this.image
+    };
+  };
 
 const places =[
     new Place("Kisumu", ["Citam Kisumu", "Kisumu Town"], "Spring", "Perfect place to find fish.", "images/WhatsApp Image 2026-02-08 at 20.28.19.jpeg"),
