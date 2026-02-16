@@ -20,22 +20,19 @@ const places =[
       "Kisumu",
       ["Citam Kisumu", "Kisumu Town"],
       "Spring",
-      "Perfect place to find fish.",
-      "images/kisumu.jpg"
+      "Perfect place to find fish."
     ),
     new Place(
       "Nairobi",
       ["Wilson Airport", "University of Nairobi"],
       "Autum",
-      "Great balance for study and exploration.",
-      "images/nairobi.jpg"
+      "Great balance for study and exploration."
     ),
     new Place(
       "Mombasa",
       ["Fort Jesus", "White Sandy Beaches"],
       "Summer",
-      "Coastal city with rich history.",
-      "images/mombasa.jpg"
+      "Coastal city with rich history."
     )
 ];  
 
@@ -46,23 +43,24 @@ places.forEach(place => {
     card.className = "place-card";
 
     const title = document.createElement("h2");
-    title.className = "place-title";
     title.textContent = place.location;
 
-    const details =document.createElement("div");
-    details.className = "place-details hidden";
-    details.innerHTML = `
-    <p><strong>Landmarks:</strong> ${place.landmarks.join(", ")}</p>
-    <p><strong>Best Time:</strong> ${place.timeOfYear}</p>
-    <p><strong>Notes:</strong> ${place.notes}</p>
-    <img src="${place.image}" alt="${place.location}" class="place-image">
-  `;
+    const detailsDiv = document.createElement("div");
+    detailsDiv.className = "place-details hidden";
 
-  title.addEventListener("click", () => {
-    details.classList.toggle("hidden");
-  });
+    title.addEventListener("click", () => {
+      const details = place.displayDetails();
+
+      detailsDiv.innerHTML = `
+        <p><strong>Landmarks:</strong> ${details.landmarks.join(", ")}</p>
+        <p><strong>Best Time:</strong> ${details.timeOfYear}</p>
+        <p><strong>Notes:</strong> ${details.notes}</p>
+      `;
+
+      detailsDiv.classList.toggle("hidden");
+    });
 
   card.appendChild(title);
-  card.appendChild(details);
+  card.appendChild(detailsDiv);
   container.appendChild(card);
 });
