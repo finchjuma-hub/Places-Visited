@@ -12,8 +12,8 @@ Place.prototype.displayDetails = function(){
       notes: this.notes
     };
   };
-
-const places =[
+  
+  const places = [
     new Place(
       "Kisumu",
       ["Citam Kisumu", "Kisumu Town"],
