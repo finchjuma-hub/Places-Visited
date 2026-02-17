@@ -3,7 +3,6 @@ function Place(location, landmarks, timeOfYear, notes, image){
     this.landmarks = landmarks;
     this.timeOfYear = timeOfYear;
     this.notes = notes;
-    this.image = image;
 }
 
 Place.prototype.displayDetails = function(){
@@ -11,7 +10,6 @@ Place.prototype.displayDetails = function(){
       landmarks: this.landmarks,
       timeOfYear: this.timeOfYear,
       notes: this.notes,
-      image: this.image
     };
   };
 
