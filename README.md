@@ -41,13 +41,48 @@ Are pseudo-coded tests present in the README?
 Does the application work as expected?
 
 ## Pseudo-coded Tests
-Test: Placeconstructor creates object witb correct properties
-Input: new Place("Nairobi", ["Wilson Airport", "University of Nairobi"], "Autum", "Great balance for stydy and exploration", "images/nairobi.jpg")
-Expected: Object with location= "Nairobi", landmarks= ["Wilson Airport"], timeOfYear="Autum", notes"Great balance for study and exploration", images="images/nairobi.jpg"
+Test 1: Place Constructor Creates Object Correctly
+Input:
+new Place(
+  "Nairobi",
+  ["Wilson Airport", "University of Nairobi"],
+  "Autumn",
+  "Great balance for study and exploration.",
+)
 
-Test: displayDetails prototype returns formatted sting
-Input: place.displayDetails()
-Expected: "Nairobi | Landmarks: Wilson Airport | Best time: Autum | Notes: Great balance for study and exploration"
+Expected Output:
+Object with properties:
+location = "Nairobi"
+landmarks = ["Wilson Airport", "University of Nairobi"]
+timeOfYear = "Autumn"
+notes = "Great balance for study and exploration."
+
+Test 2: Prototype Method Returns Place Details
+Input:
+place.getDetails()
+
+Expected Output:
+An object containing:
+- landmarks (Array)
+- timeOfYear (String)
+- notes (String)
+- image (String)
+
+Test 3: Clicking a Place Title Retrieves Correct Object
+Action:
+User clicks on "Nairobi"
+
+Expected Result:
+The application retrieves the Nairobi Place object
+Displays Nairobi landmarks, time of year, notes, and image
+
+Test 4: DOM Updates Based on Object Data
+Action:
+User clicks any place title
+
+Expected Result:
+The DOM updates using the clicked Place object's properties
+ 
 
 ## Future Improvements
 Add search or filter functionality.
