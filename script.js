@@ -1,4 +1,4 @@
-function Place(location, landmarks, timeOfYear, notes, image){
+function Place(location, landmarks, timeOfYear, notes){
     this.location = location;
     this.landmarks = landmarks;
     this.timeOfYear = timeOfYear;
@@ -9,7 +9,7 @@ Place.prototype.displayDetails = function(){
     return{
       landmarks: this.landmarks,
       timeOfYear: this.timeOfYear,
-      notes: this.notes,
+      notes: this.notes
     };
   };
 
@@ -23,7 +23,7 @@ const places =[
     new Place(
       "Nairobi",
       ["Wilson Airport", "University of Nairobi"],
-      "Autum",
+      "Autumn",
       "Great balance for study and exploration."
     ),
     new Place(
